@@ -1,0 +1,128 @@
+.block-up-prev-contents-default
+{
+    position:fixed;
+	margin:0;
+	padding:0;
+	right:-9999px;	
+    text-align: left;
+    background-color: #fff;
+    z-index:99999;
+    border-top: 2px solid #000;
+    border-left: 1px solid #f0f0f0;
+    -moz-box-shadow: 0 4px 10px #666;
+    -webkit-box-shadow: 0 4px 10px #666;
+    box-shadow: 0 4px 10px #666;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, direction=270, strength=7)";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, direction=270, strength=7);
+	
+}
+.block-up-prev-contents-default .header {
+	position:relative;
+	display:block;
+	overflow:hidden;
+	height:20px;
+	margin:0;
+	padding:5px;
+background: #ffffff; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2YxZjFmMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iI2UxZTFlMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNmY2ZjYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-8 */
+	
+	border-bottom:#bbb solid 1px;
+	user-select:none;
+	-o-user-select:none;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+	text-align:left;
+}
+.block-up-prev-contents-default .header h2 {
+	position:relative;
+	line-height:20px;
+    margin:0 0 10px 0;
+    padding:0;
+	vertical-align:middle;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: arial,helvetica,sans-serif;
+	font-size:1.1em;
+	color: #444;
+	text-shadow:1px 1px 1px #EEE;
+}
+.block-up-prev-contents-default .header h3
+{
+    background: transparent url(close.png) no-repeat 0;
+    border: none;
+    display:block;
+    height: 20px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 5px;
+    text-indent: -999em;
+    top: 5px;
+    width: 20px;
+}
+
+.block-up-prev-contents-default a.thumbnail img
+{
+    border:0;
+    float:left;
+    margin:0 10px 5px 0;
+}
+.block-up-prev-contents-default div,
+.block-up-prev-contents-default div.thumbnail br
+{
+    clear:both;
+}
+.block-up-prev-contents-default h5
+{
+    margin-top:0;
+}
+.block-up-prev-contents-default div.thumbnail h5
+{
+    clear:right;
+    margin:0 0 .5em 0;
+}
+.block-up-prev-contents-default .text 
+{
+	position:relative;
+	display:block;
+	margin:0;
+    padding:0 10px;
+	user-select:none;
+	-o-user-select:none;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+}
+.block-up-prev-contents-default .text .prev-article {
+	position:relative;
+	display:block;
+	margin-bottom:20px;
+	text-align:justify;
+}
+.block-up-prev-contents-default .text .prev-article h4 a {
+	position:relative;
+	display:block;
+	border-bottom:#E6E6E6 solid 1px;
+	padding:5px 0;
+	margin:2px 0;
+	width:100%;
+	font-size:1.1em;
+	font-style:italic;
+	color:#333;
+}
+.block-up-prev-contents-default .promote 
+{
+    clear:both;
+    color:#888;
+    font-size:.9em;
+    margin:0px;
+    padding-top:5px;
+    text-align:right;
+}
