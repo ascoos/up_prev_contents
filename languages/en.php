@@ -36,7 +36,7 @@
 
 defined ("ALEXSOFT_RUN_CMS") or die("Prohibition of Access.");
 
-class TBlock_up_prev_content_Language extends \TObject
+class TBlock_up_prev_contents_Language extends \TObject
 {
 	public $blockname = "Up Previous Contents";
 	public $close = "Close";

@@ -36,7 +36,7 @@
 
 defined ("ALEXSOFT_RUN_CMS") or die("Prohibition of Access.");
 
-class TBlock_up_prev_content_Language extends \TObject
+class TBlock_up_prev_contents_Language extends \TObject
 {
 	public $blockname = "Πρόταση ανάγνωσης προηγούμενου άρθρου";
 	public $close = "Κλείσιμο";
