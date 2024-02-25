@@ -1,0 +1,140 @@
+.block-up-prev-contents-cleargray {
+    position:fixed;
+	margin:0;
+	padding:0;
+	right:-9999px;	
+    text-align: left;
+    z-index:99999;
+	background-color:#F9F9F9;
+	border:#aaa solid 1px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+    box-shadow:1px 1px 3px rgba(22, 22, 22, 0.5); /* #7f161616*/
+    -moz-box-shadow:1px 1px 3px rgba(22, 22, 22, 0.5);  /*FF 3.5+ #161616 */
+	-webkit-box-shadow:1px 1px 3px rgba(22, 22, 22, 0.5);  /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#7f161616)";/*IE 8*/
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#7f161616);/*IE 5.5-7*/
+	overflow:hidden;
+	user-select:none;
+	-o-user-select:none;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+}
+.block-up-prev-contents-cleargray .header {
+	position:relative;
+	display:block;
+	overflow:hidden;
+	height:20px;
+	margin:0;
+	padding:5px;
+	border-bottom:#111 inset 1px;
+background: #a4a4a4; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E0YTRhNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2E2YTZhNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3ODc4NzgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #a4a4a4 0%, #a6a6a6 50%, #787878 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a4a4a4), color-stop(50%,#a6a6a6), color-stop(100%,#787878)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #a4a4a4 0%,#a6a6a6 50%,#787878 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #a4a4a4 0%,#a6a6a6 50%,#787878 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #a4a4a4 0%,#a6a6a6 50%,#787878 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #a4a4a4 0%,#a6a6a6 50%,#787878 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4a4a4', endColorstr='#787878',GradientType=0 ); /* IE6-8 */
+	border-radius: 6px 6px 0 0;
+	-moz-border-radius: 6px 6px 0 0;
+	-webkit-border-radius: 6px 6px 0 0;
+	user-select:none;
+	-o-user-select:none;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+}
+.block-up-prev-contents-cleargray .header h2 {
+	position:relative;
+	line-height:20px;
+	vertical-align:middle;
+	font-size:1.2em;
+	color: #033;
+	text-shadow:1px 1px 1px #EEE;
+    text-transform: uppercase;
+}
+
+
+.block-up-prev-contents-cleargray .header h3
+{
+    background: transparent url(close.png) no-repeat 0;
+    border: none;
+    display:block;
+    height: 20px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 5px;
+    text-indent: -999em;
+    top: 5px;
+    width: 20px;
+}
+.block-up-prev-contents-cleargray a.thumbnail img
+{
+    border:0;
+    float:left;
+    margin:0 10px 5px 0;
+}
+.block-up-prev-contents-cleargray div,
+.block-up-prev-contents-cleargray div.thumbnail br
+{
+    clear:both;
+}
+.block-up-prev-contents-cleargray h5
+{
+    margin-top:0;
+}
+.block-up-prev-contents-cleargray div.thumbnail h5
+{
+    clear:right;
+    margin:0 0 .5em 0;
+}
+.block-up-prev-contents-cleargray .text 
+{
+	position:relative;
+	display:block;
+	margin:0;
+    padding:0 10px;
+	user-select:none;
+	-o-user-select:none;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+}
+.block-up-prev-contents-cleargray .text .prev-article {
+	position:relative;
+	display:block;
+	margin-bottom:20px;
+	text-align:justify;
+}
+.block-up-prev-contents-cleargray .text .prev-article h4 a {
+	position:relative;
+	display:block;
+	border-bottom:#E6E6E6 solid 1px;
+	padding:5px 0;
+	margin:2px 0;
+	width:100%;
+	font-size:1.1em;
+	font-style:italic;
+	color:#333;
+background: #ffffff;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZjFmMWYxIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTElIiBzdG9wLWNvbG9yPSIjZTFlMWUxIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y2ZjZmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(45deg,  #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#ffffff), color-stop(50%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6));
+background: -webkit-linear-gradient(45deg,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
+background: -o-linear-gradient(45deg,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
+background: -ms-linear-gradient(45deg,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
+background: linear-gradient(45deg,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 );
+}
+.block-up-prev-contents-cleargray .promote 
+{
+    clear:both;
+    color:#888;
+    font-size:.9em;
+    margin:0px;
+    padding-top:5px;
+    text-align:right;
+}
