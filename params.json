@@ -1,0 +1,160 @@
+{
+	"attrs": {
+		"type": "parameters",
+		"client": "block",
+		"version": "1.0.1",
+			"name": "up_prev_contents"
+	},
+	"header": {
+		"version": "1.0.0",
+		"license": "APL_license",
+		"author": "APL_author",
+		"creation": "APL_creation",
+		"copyright": "APL_copyright",
+		"email": "webmaster@alexsoft.gr",
+		"url": "www.alexsoft.gr",
+		"translator": "APL_translator",
+		"translatorEmail": "APL_translatorEmail",
+		"translatorUrl": "APL_translatorUrl",
+		"description": "APL_desc"
+	},
+	"params": {
+		"0": {
+			"paramgroup": "APL_paramgroup_general_label",
+			"0": {
+				"name": "count",
+				"type": "integer",
+				"default": 5,
+				"label": "APL_count_label",
+				"description": "APL_count_desc"
+			},
+			"1": {
+				"name": "str_length",
+				"type": "integer",
+				"default": 300,
+				"label": "APL_str_length_label",
+				"description": "APL_str_length_desc"
+			},
+			"2": {
+				"name": "promote",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_promote_label",
+				"description": "APL_promote_desc"
+			},
+			"3": {
+				"type": "separate"
+			},
+			"4": {
+				"name": "theme",
+				"type": "themelist",
+				"placeholder":"APL_theme_placeholder",
+				"default": "default",
+				"excludeFiles":"script.js",
+				"excludeDirs":"",
+				"label": "APL_theme_label",
+				"description": "APL_theme_desc"
+			}
+		},
+		"1": {
+			"paramgroup": "APL_paramgroup_categories_label",
+			"0": {
+				"name": "type",
+				"normalize":"extrafield",
+				"type": "multiselect",
+				"list":"ArticleTypes",
+				"placeholder":"APL_type_placeholder",
+				"default": 1,
+				"label": "APL_type_label",
+				"description": "APL_type_desc"
+			},
+			"1": {
+				"name": "cat_ids",
+				"normalize":"extrafield",
+				"type": "multiselect",
+				"list":"ArticleCategories",
+				"placeholder":"APL_cat_ids_placeholder",
+				"default": 1,
+				"label": "APL_cat_ids_label",
+				"description": "APL_cat_ids_desc"
+			},
+			"2": {
+				"name": "except_cat_ids",
+				"normalize":"extrafield",
+				"type": "multiselect",
+				"list":"ArticleExceptCategories",
+				"placeholder":"APL_except_cat_ids_placeholder",
+				"default": 1,
+				"label": "APL_except_cat_ids_label",
+				"description": "APL_except_cat_ids_desc"
+			}
+		},
+		"2": {
+			"paramgroup": "APL_paramgroup_animation_label",
+			"0": {
+				"name": "animation",
+				"type": "list",
+				"optval":"fade,flyout",
+				"opttext":"APL_opt_fade,APL_opt_flyout",
+				"placeholder":"APL_animation_placeholder",
+				"placeholderVal":"",
+				"default": "",
+				"label": "APL_animation_label",
+				"description": "APL_animation_desc"
+			},
+			"1": {
+				"name": "corner",
+				"type": "list",
+				"optval":"left,right",
+				"opttext":"APL_opt_LeftBottom,APL_opt_RightBottom",
+				"placeholder":"APL_corner_placeholder",
+				"placeholderVal":"",
+				"default": "",
+				"label": "APL_corner_label",
+				"description": "APL_corner_desc"
+			},
+			"2": {
+				"name": "element",
+				"type": "text",
+				"default": "",
+				"label": "APL_element_label",
+				"description": "APL_element_desc"
+			},
+			"3": {
+				"name": "percent",
+				"type": "integer",
+				"default": 75,
+				"label": "APL_percent_label",
+				"description": "APL_percent_desc"
+			},
+			"4": {
+				"name": "width",
+				"type": "integer",
+				"default": 360,
+				"label": "APL_width_label",
+				"description": "APL_width_desc"
+			},
+			"5": {
+				"name": "side",
+				"type": "integer",
+				"default": 5,
+				"label": "APL_side_label",
+				"description": "APL_side_desc"
+			},
+			"6": {
+				"name": "target",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_target_label",
+				"description": "APL_target_desc"
+			},
+			"7": {
+				"name": "show_btn_close",
+				"type": "boolean",
+				"default": 0,
+				"label": "APL_show_btn_close_label",
+				"description": "APL_show_btn_close_desc"
+			}
+		}
+	}
+}
